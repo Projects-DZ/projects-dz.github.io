@@ -31,7 +31,9 @@
                         <nav>
                             <ul>
                                 <li><a href="#intro">Intro</a></li>
-                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li>
+                                    <a href="#portfolio">Portfolio</a>
+                                </li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
                         </nav>
@@ -45,7 +47,7 @@
                                 <h2 class="major">Intro</h2>
                                 <span class="image fit"><img src="images/data.jpg" alt="" /></span>
                                 <b>PROFILE:</b>
-                                <p>Dedicated and goal-oriented Business Analyst with background in banking, finance, logistics and audit. I specialize in transforming complex data into actionable insights though data analytics and data visualization. I am proficient in SQL, VB, Power BI, Tableau, Python, Excel and other data and business intelligent tools which I use to create engaging and insightful reports and dashboards. Let's turn your data into your most valuable asset and unlock its full potential.</p>
+                                <p>Dedicated and goal-oriented Business Analyst with background in banking, finance, logistics and audit. I specialize in transforming complex data into actionable insights though data analytics and data visualization. I am proficient in SQL, VB, Power BI, Tableau, Python, Excel and other data and business intelligent tools which I use to create engaging and insightful reports and dashboards. Let's turn your data into your most valuable asset and unlock its full potential.</a></p>
                                 <b>SKILLS:</b>
                                 <p>| MS SQL Server | BigQuery | PostgreSQL | VB | Google Analytics | Power BI | Tableau | 
                                 <br>| VBA | Python (Pandas, Numpy, Matplotlib, Seaborn, Statsmodels, SciPy) |
@@ -106,7 +108,6 @@
                                     <li>Upload all project related data to GitHub and publish on GitHub Pages</li>
                                 </ol>
                                 <p><a href="https://github.com/Projects-DZ/Streaming-services-project">GitHub Repository</a></p>
-                                <a href="#portfolio" class="close">X</a>
                             </article>
 
                         <!-- Project 2 -->
@@ -114,7 +115,11 @@
 								<h2 class="major">Project 2:</h2>
 								<h2>Personal Finance Dashboard</h2>
 								<h3>Personal finance tracking solution using Microsoft Excel and VBA for simple and effective financial management.</h3>
-                                <a href="#portfolio" class="close">X</a>
+								<b>PROJECT GOALS:</b>
+                                <ul>
+                                    <li>Make a convenient and accessible personal finance interface for everyday use.</li>
+                                    <li>Use Microsoft Excel and VBA to utilise their limited functionality to create interactive live dashboard and user interface.</li>
+                                </ul>
 							</article>
 
                         <!-- Project 3 -->          <!--
@@ -148,15 +153,7 @@
             <script src="assets/js/breakpoints.min.js"></script>
             <script src="assets/js/util.js"></script>
             <script src="assets/js/main.js"></script>
-            <script>
-                // Custom JavaScript to handle the closing of project articles
-                document.querySelectorAll('.close').forEach(button => {
-                    button.addEventListener('click', function(event) {
-                        event.preventDefault();
-                        document.getElementById('main').scrollIntoView({ behavior: 'smooth' });
-                        window.location.hash = '#portfolio';
-                    });
-                });
-            </script>
+
     </body>
 </html>
+
